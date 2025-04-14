@@ -1,14 +1,14 @@
 package com.example.jobscheduler;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class RootController {
 
     @GetMapping("/")
-    public String home() {
-        return "Backend is up and running! 🚀";
+    public String redirectToFrontend() {
+        return "redirect:https://your-frontend-url.railway.app";
     }
 }
 
