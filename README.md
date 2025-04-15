@@ -1,3 +1,9 @@
+🌍 Deployment
+You can access the live demo of the project here:
+
+🔗 Live URL: https://fe43-2401-4900-4e74-f37-4cac-3d5d-744c-5ad.ngrok-free.app
+
+
 # 🕒 Job Scheduler App
 
 A full-stack **Job Scheduler** web application built using **Spring Boot**, **React**, **Kafka**, **YugabyteDB**, and **MinIO**. It supports scheduled and immediate job execution for emails, Kafka messages, and binaries (like `.jar`/`npm` scripts), with recurring, delayed, and timezone-aware execution.
