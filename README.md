@@ -101,7 +101,41 @@ docker-compose down
 
 The Docker Compose file may create named volumes for MinIO and YugabyteDB to persist data even after restarting the containers.
 
+
+🛠️ Prefered Method: Run with IntelliJ IDEA
+If you prefer using IntelliJ IDEA, follow these steps to download and run the project:
+
+1. Clone the Repository
+
+You can either:
+
+Using Git CLI
+
 2. 🧪 Run Locally
+
+git clone https://github.com/your-username/your-repo-name.git
+
+Or
+
+Download ZIP:
+Click the Code button on the repository page and select Download ZIP. Extract the ZIP file to your desired location.
+
+2. Open in IntelliJ
+Open IntelliJ IDEA.
+
+Select File > Open.
+
+Navigate to the root folder of the project (the folder containing the pom.xml or build.gradle file), and click Open.
+
+3. Let IntelliJ Import the Project
+IntelliJ will automatically detect the project structure. It may take a moment to download dependencies if it’s a Maven or Gradle project.
+
+5. Run the Application
+Locate the EmailDemoApplication class (typically inside src/main/java/.../EmailDemoApplication.java).
+
+Right-click on the class and select Run 'EmailDemoApplication'.
+
+
 
 Backend (Spring Boot)
 
