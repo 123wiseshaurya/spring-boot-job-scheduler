@@ -103,9 +103,7 @@ If you prefer using IntelliJ IDEA, follow these steps to download and run the pr
 You can either:
 
 Using Git CLI:
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/your-repo-name.git
 Or Download ZIP:
 Click the Code button on the GitHub repo and select Download ZIP. Extract it to your desired location.
