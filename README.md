@@ -36,12 +36,20 @@ A full-stack **Job Scheduler** web application built using **Spring Boot**, **Re
 | Dev Tools    | IntelliJ, Docker, Postman |
 
 ---
-
 ## 📁 Project Structure
+
 spring-boot-job-scheduler/
+
 ├── src/
 │   ├── main/
-│   │   ├── java/           # Spring Boot backend---
+│   │   ├── java/            # Spring Boot backend
+│   │   ├── resources/       # Resources such as application.properties, static files, templates, etc.
+│   │   └── ...
+├── pom.xml                  # Maven dependencies
+├── docker-compose.yml       # Docker configuration for MinIO, Kafka, Yugabyte setup
+├── README.md                # Project documentation
+└── ...
+
 
 ## ⚙️ Setup Instructions
 
@@ -66,16 +74,11 @@ Frontend (React)
 cd job-scheduler-ui
 npm install
 npm run build
+
 # Copy build to static folder or serve separately
+
 📸 Screenshots
-## 📸 Screenshots
-
-![Job Scheduler Screenshot](https://github.com/user-attachments/assets/cef74285-5b03-4e98-a401-bd577e8b9f24)
-
-
-[![Image 1](https://github.com/user-attachments/assets/565b1d05-1504-4d07-9a8f-ad541e24d6fc)](https://github.com/123wiseshaurya/spring-boot-job-scheduler/issues/2#issue-2995741904)
-![Image 2](https://github.com/user-attachments/assets/6dbe4bce-e245-40c0-8ea9-d712532fdd6b)
-![Image 3](https://github.com/user-attachments/assets/6e2712e5-7a0c-4062-a304-1d1647685684)
+Images are located inside the output images directory.
 
 Include frontend UI screenshots or a short demo GIF here.
 Deployment
@@ -97,4 +100,26 @@ Deployment
 Built with 💻 by Shaurya Raghuwanshi
 	•	GitHub: @123wiseshaurya
 	•	LinkedIn: https://www.linkedin.com/in/shaurya-r-a8a08a346/
+MIT License
+
+Copyright (c) 2025 Shaurya Raghuwanshi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
 
