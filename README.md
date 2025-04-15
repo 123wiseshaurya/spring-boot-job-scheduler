@@ -40,19 +40,21 @@ A full-stack **Job Scheduler** web application built using **Spring Boot**, **Re
 src/main/java/
 Contains the main Spring Boot backend code, including controllers, services, and configuration.
 
-src/main/resources/
+
+##src/main/resources/
 Holds application properties, static files, templates (like Thymeleaf or Freemarker), and other resources.
 
-pom.xml
+
+##pom.xml
 Maven build file — manages project dependencies and plugins.
 
-docker-compose.yml
+##docker-compose.yml
 Docker configuration for setting up services like MinIO, Kafka, and YugabyteDB.
 
-README.md
+##README.md
 Project documentation, setup instructions, and usage guidelines.
 
-Other files/folders
+##Other files/folders
 May include test files, Git configs, or additional support scripts depending on the project setup.
 
 
