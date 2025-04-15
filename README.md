@@ -36,19 +36,24 @@ A full-stack **Job Scheduler** web application built using **Spring Boot**, **Re
 | Dev Tools    | IntelliJ, Docker, Postman |
 
 ---
-## 📁 Project Structure
+📁 Project Structure
+src/main/java/
+Contains the main Spring Boot backend code, including controllers, services, and configuration.
 
-spring-boot-job-scheduler/
+src/main/resources/
+Holds application properties, static files, templates (like Thymeleaf or Freemarker), and other resources.
 
-├── src/
-│   ├── main/
-│   │   ├── java/            # Spring Boot backend
-│   │   ├── resources/       # Resources such as application.properties, static files, templates, etc.
-│   │   └── ...
-├── pom.xml                  # Maven dependencies
-├── docker-compose.yml       # Docker configuration for MinIO, Kafka, Yugabyte setup
-├── README.md                # Project documentation
-└── ...
+pom.xml
+Maven build file — manages project dependencies and plugins.
+
+docker-compose.yml
+Docker configuration for setting up services like MinIO, Kafka, and YugabyteDB.
+
+README.md
+Project documentation, setup instructions, and usage guidelines.
+
+Other files/folders
+May include test files, Git configs, or additional support scripts depending on the project setup.
 
 
 ## ⚙️ Setup Instructions
