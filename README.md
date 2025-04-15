@@ -70,7 +70,7 @@ npm run build
 📸 Screenshots
 ## 📸 Screenshots
 
-![Image 1](https://github.com/user-attachments/assets/565b1d05-1504-4d07-9a8f-ad541e24d6fc)
+[![Image 1](https://github.com/user-attachments/assets/565b1d05-1504-4d07-9a8f-ad541e24d6fc)](https://github.com/123wiseshaurya/spring-boot-job-scheduler/issues/2#issue-2995741904)
 ![Image 2](https://github.com/user-attachments/assets/6dbe4bce-e245-40c0-8ea9-d712532fdd6b)
 ![Image 3](https://github.com/user-attachments/assets/6e2712e5-7a0c-4062-a304-1d1647685684)
 
