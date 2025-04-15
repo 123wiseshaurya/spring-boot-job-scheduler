@@ -80,10 +80,11 @@ MinIO – S3-compatible object storage for handling job attachments or logs.
 YugabyteDB – Distributed SQL database used as the primary data store.
 
 🚀 How to Start
+
 Ensure Docker is running on your machine.
 
 
-#Run the following command from the project root:
+-Run the following command from the project root:
 
 docker-compose up -d
 
@@ -133,17 +134,22 @@ IntelliJ will automatically detect the project structure. It may take a moment t
 5. Run the Application
 Locate the EmailDemoApplication class (typically inside src/main/java/.../EmailDemoApplication.java).
 
-Right-click on the class and select Run 'EmailDemoApplication'.
+Right-click on the class and select Run 'EmailDemoApplication'
 
 
 
-Backend (Spring Boot)
+
+
+
+
+🚀Backend (Spring Boot)
 
 cd spring-boot-job-scheduler
 
 ./mvnw spring-boot:run
 
-#Frontend (React)
+
+🚀Frontend (React)
 
 cd job-scheduler-ui
 
@@ -151,10 +157,13 @@ npm install
 
 npm run build
 
-# Copy build to static folder or serve separately
+{Copy build to static folder or serve separately}
+
 
 📸 Screenshots
+
 Images are located inside the output images directory.
+
 
 Include frontend UI screenshots or a short demo GIF here.
 Deployment
