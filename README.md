@@ -38,44 +38,68 @@ A full-stack **Job Scheduler** web application built using **Spring Boot**, **Re
 ---
 📁 Project Structure
 
-src/main/java/
+-src/main/java/
 
 Contains the main Spring Boot backend code, including controllers, services, and configuration.
 
 
-src/main/resources/
+-src/main/resources/
 
 Holds application properties, static files, templates (like Thymeleaf or Freemarker), and other resources.
 
 
-pom.xml
+-pom.xml
 
 Maven build file — manages project dependencies and plugins.
 
-docker-compose.yml
+-docker-compose.yml
 
 Docker configuration for setting up services like MinIO, Kafka, and YugabyteDB.
 
-README.md
+-README.md
 
 Project documentation, setup instructions, and usage guidelines.
 
-Other files/folders
+-Other files/folders
 
 May include test files, Git configs, or additional support scripts depending on the project setup.
 
 
 ## ⚙️ Setup Instructions
 
-### 1. 🐳 Start Dependencies
-```bash
+🐳 Docker Compose Setup
+The project includes a docker-compose.yml file to quickly spin up the necessary services for local development.
+
+🔧 Services Included
+Kafka – Messaging broker for scheduling jobs and event-driven flows.
+
+Zookeeper – Required by Kafka for cluster coordination.
+
+MinIO – S3-compatible object storage for handling job attachments or logs.
+
+YugabyteDB – Distributed SQL database used as the primary data store.
+
+🚀 How to Start
+Ensure Docker is running on your machine.
+
+Run the following command from the project root:
 
 docker-compose up -d
-│   │   └── resources/
-│   │       └── static/     # React build (frontend)
-├── docker-compose.yml      # MinIO, Kafka, Yugabyte setup
-├── pom.xml                 # Maven dependencies
-└── README.md               # This file
+
+This will pull images (if needed) and start all services in the background.
+
+Verify the services:
+
+docker ps
+
+To stop all containers:
+
+docker-compose down
+
+📂 Volume Persistence
+
+The Docker Compose file may create named volumes for MinIO and YugabyteDB to persist data even after restarting the containers.
+
 2. 🧪 Run Locally
 
 Backend (Spring Boot)
