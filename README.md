@@ -68,7 +68,7 @@ npm install
 npm run build
 # Copy build to static folder or serve separately
 📸 Screenshots
-
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/565b1d05-1504-4d07-9a8f-ad541e24d6fc" />
 Include frontend UI screenshots or a short demo GIF here.
 Deployment
 	•	The frontend can be served either:
