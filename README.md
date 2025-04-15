@@ -63,7 +63,7 @@ npm run build
 # Copy build to static folder or serve separately
 📸 Screenshots
 <img width="1440" alt="Screenshot 2025-04-15 at 10 55 49 AM" src="https://github.com/user-attachments/assets/ed68a725-383e-4c64-8782-d956d7ca52da" />
-<img width="1440" alt="Screenshot 2025-04-15 at 10 56 02 AM" src="https://github.com/user-attachments/assets/7c6806db-e885-46df-b430-0152ef549709" />
+[<img width="1440" alt="Screenshot 2025-04-15 at 10 56 02 AM" src="https://github.com/user-attachments/assets/7c6806db-e885-46df-b430-0152ef549709" />](https://github.com/123wiseshaurya/spring-boot-job-scheduler/issues/1#issue-2995206108)
 <img width="1440" alt="Screenshot 2025-04-15 at 10 56 09 AM" src="https://github.com/user-attachments/assets/3950d034-ac38-4d49-a41f-5ae532d9c11e" />
 
 
