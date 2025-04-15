@@ -67,7 +67,7 @@ May include test files, Git configs, or additional support scripts depending on 
 
 ## ⚙️ Setup Instructions
 
-🐳 Docker Compose Setup
+1.🐳 Docker Compose Setup
 The project includes a docker-compose.yml file to quickly spin up the necessary services for local development.
 
 🔧 Services Included
@@ -82,17 +82,18 @@ YugabyteDB – Distributed SQL database used as the primary data store.
 🚀 How to Start
 Ensure Docker is running on your machine.
 
-Run the following command from the project root:
+
+#Run the following command from the project root:
 
 docker-compose up -d
 
-This will pull images (if needed) and start all services in the background.
+(This will pull images (if needed) and start all services in the background.)
 
-Verify the services:
+#Verify the services:
 
 docker ps
 
-To stop all containers:
+(To stop all containers:)
 
 docker-compose down
 
@@ -105,12 +106,15 @@ The Docker Compose file may create named volumes for MinIO and YugabyteDB to per
 Backend (Spring Boot)
 
 cd spring-boot-job-scheduler
+
 ./mvnw spring-boot:run
 
-Frontend (React)
+#Frontend (React)
 
 cd job-scheduler-ui
+
 npm install
+
 npm run build
 
 # Copy build to static folder or serve separately
